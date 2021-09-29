@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 200px;
+}
+
+.App p {
+  margin: 15px
 }
 
 .App-logo {
@@ -35,4 +43,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grid-slot {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  padding: 20px
 }
